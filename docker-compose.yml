@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: flow-logger
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ${PWD}/app:/app
+    tty: true
+    stdin_open: true
