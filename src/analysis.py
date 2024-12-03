@@ -40,11 +40,11 @@ class Analysis:
         json_files = [file for file in os.listdir(log_dir) if file.endswith('.json')][0]
         return json_files
 
-    def load_json_file(self,json_file_path):
+    def load_json_file(self, json_file_path):
         """
         jsonファイルをload
         """
-        dict_data = json.load(open(json_file_path, 'r' ,encoding='utf-8-sig'))
+        dict_data = json.load(open(json_file_path, 'r' , encoding='utf-8-sig'))
         return dict_data
 
     def analysis_detect_log(self):

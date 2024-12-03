@@ -72,7 +72,7 @@ class Logger:
 
         return detect_log
 
-    def dump_json_file(self,json_file_path,dict_data):
+    def dump_json_file(self, json_file_path, dict_data):
         """
         jsonファイルをdump
         """
