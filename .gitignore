@@ -1,7 +1,8 @@
-.DS_Store
-.venv
-assets
-exports
-logs
-out
+**/.DS_Store
+
+assets/
+exports/
+logs/
+out/
+
 *.pt
